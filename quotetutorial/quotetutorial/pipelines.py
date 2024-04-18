@@ -20,8 +20,8 @@ class QuotetutorialPipeline:
     def create_connection(self):
         self.conn = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="admin",
+            user="",
+            password="",
             database="myquotes"
 
         )
